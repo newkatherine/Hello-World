@@ -17,6 +17,7 @@ jobs:
         run: echo 'My name is Katherine!'
 
   goodbye:
+    needs: hello
     runs-on: ubuntu-latest
 
     steps:
