@@ -5,12 +5,12 @@ on:
   push:
     branches: [ "master" ]
 
-env:
-  MY_NAME: Katherine
-
 jobs:
   hello:
     runs-on: ubuntu-latest
+
+    env:
+      MY_NAME: Katherine
 
     steps:
       - name: Say Hello
