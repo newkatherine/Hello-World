@@ -20,8 +20,7 @@ jobs:
         run: echo "My name is $MY_NAME!"
 
       - name: use secret
-        run: echo "MY secret is $
-      {{secrets.MY_SECRET}}"
+        run: echo "MY secret is ${{secrets.MY_SECRET}}"
 
   goodbye:
     needs: hello
