@@ -15,3 +15,10 @@ jobs:
 
       - name: Say My Name
         run: echo 'My name is Katherine!'
+
+  goodbye:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Goodbye
+        run: echo 'Goodbye, GitHub!'
