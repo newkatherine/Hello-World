@@ -17,7 +17,7 @@ jobs:
         run: echo 'Hello, GitHub Actions!'
 
       - name: Say My Name
-        run: echo 'My name is $MY_NAME!'
+        run: echo "My name is $MY_NAME!"
 
   goodbye:
     needs: hello
