@@ -5,6 +5,9 @@ on:
   push:
     branches: [ "master" ]
 
+env:
+  MY_NAME: Katherine
+
 jobs:
   hello:
     runs-on: ubuntu-latest
@@ -14,7 +17,7 @@ jobs:
         run: echo 'Hello, GitHub Actions!'
 
       - name: Say My Name
-        run: echo 'My name is Katherine!'
+        run: echo 'My name is $MY_NAME!'
 
   goodbye:
     needs: hello
