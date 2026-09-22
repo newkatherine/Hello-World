@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Say Hello
-        run: echo "Hello, katherine!"
+        run: exit 1
