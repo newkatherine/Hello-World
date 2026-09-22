@@ -1,3 +1,4 @@
+
 name: Hello GitHub Actions
 
 on:
@@ -11,3 +12,6 @@ jobs:
     steps:
       - name: Say Hello
         run: echo 'Hello, GitHub Actions!'
+
+      - name: Say My Name
+        run: echo 'My name is Katherine!'
